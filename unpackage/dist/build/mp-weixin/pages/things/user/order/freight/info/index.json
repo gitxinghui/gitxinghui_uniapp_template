@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "navigationStyle": "custom",
+  "backgroundColor": "#26cf85",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "cu-custom": "/components/cu-custom/cu-custom",
+    "pop-link-dialog": "/components/popLinkDialog/popLinkDialog",
+    "pop-loading": "/components/popLoading/popLoading",
+    "pop-dialog": "/components/popDialog/popDialog",
+    "tip-modal": "/components/tipModal/tipModal",
+    "login": "/components/login/login"
+  }
+}

@@ -1,0 +1,102 @@
+
+/* 行为相关颜色 */
+$uni-color-primary: #007aff;
+$uni-color-success: #4cd964;
+$uni-color-warning: #f0ad4e;
+$uni-color-error: #dd524d;
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
+// 主题颜色
+// 绿色
+.things_active_color {
+    color:#32d08b!important;
+}
+.things_bg_active_color {
+    background-color:#32d08b!important;
+}
+// colorui重置
+.cu-modal {
+    z-index: 10000;
+}
+.bg-white {
+    background-color: #FFF!important;
+}
+.cu-btn[disabled] {
+    opacity: 1;
+}
+// 公共样式
+/* 字体 */
+.things_font_size_28 {
+    font-size: 28upx;
+    font-weight: normal;
+}
+.things_font_size_32 {
+    font-size: 32upx;
+    font-weight: normal;
+}
+.things_font_base_color {
+    color: #111111;
+}
+.things_font_base_color13 {
+    color: #131313;
+}
+.things_font_over_hide {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;//当属性值为3，表示超出3行隐藏
+}
+/* 排版 */
+.things_width_full {
+    width: 100%;
+}
+.things_padding_100 {
+    padding-bottom: 100upx;
+}
+
+// 背景图片
+.bgImage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+// 表单
+.placeHolderText {
+    font-size: 32upx;
+	font-weight: normal;
+	color: #dedede;
+}
+.inputText {
+    font-size: 32upx;
+	font-weight: normal;
+    color: #111111;
+}
+
+// 空数据
+.kong_image {
+    width: 160upx;
+    height: auto;
+}
+.kong_data {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .kong_image {
+        width: 160upx;
+        height: auto;
+    }
+    .kong_tip {
+        font-size: 32upx;
+        color: #999999;
+        margin-top: 45upx;
+    }
+}

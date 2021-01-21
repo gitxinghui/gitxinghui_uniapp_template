@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "交易中心",
+  "navigationStyle": "custom",
+  "backgroundColor": "#26cf85",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {}
+}

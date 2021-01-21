@@ -1,0 +1,59 @@
+#things_home {
+    .foot {
+        height: 99upx;
+        .action {
+            background-color: transparent;
+            .cuIcon-cu-image {
+                .things_icon_home {
+                    height: 40upx;
+                    width: auto;
+                }
+                .things_icon_user {
+                    height: 40upx;
+                    width: auto;
+                }
+            }
+        }
+        .index_bar,.user_bar {
+            .barText {
+                margin-top: 13upx;
+            }
+        }
+        .publish_bar {
+            align-self: flex-end;
+            padding-bottom: 11upx;
+            .publish_icon_not {
+                width: 101upx;
+                height: auto;
+            }
+            .publish_icon {
+                animation: translate45 500ms forwards;
+            }
+            .barText {
+                margin-top: 16upx;
+            }
+        }
+    }
+}
+.barText {
+    font-size: 24upx;
+    font-weight: bold;
+    color: #999999;
+}
+.things_icon_home {
+    font-size: 40upx;
+    color: #999999;
+}
+.things_icon_user {
+    font-size: 35upx;
+    color: #999999;
+}
+
+@keyframes translate45 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}

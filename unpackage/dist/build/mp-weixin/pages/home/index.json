@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "index": "/components/index/index",
+    "user": "/components/user/user",
+    "publish": "/components/publish/publish",
+    "pop-link-dialog": "/components/popLinkDialog/popLinkDialog",
+    "pop-loading": "/components/popLoading/popLoading",
+    "pop-dialog": "/components/popDialog/popDialog",
+    "tip-modal": "/components/tipModal/tipModal",
+    "login": "/components/login/login"
+  }
+}

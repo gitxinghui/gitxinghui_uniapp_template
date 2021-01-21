@@ -1,0 +1,71 @@
+.things_publish {
+    padding-top: 106upx;
+    height: 100vh;
+    background-color: #f6f6f6;
+    .page {
+        padding: 0 28upx;
+        .publish_title {
+            font-size: 48rpx;
+            font-weight: normal;
+            color: #131313;
+            line-height: 1;
+        }
+        .publish_type_box {
+            margin-top: 38upx;
+            .publish_find {
+                padding-left: 44upx;
+                height: 200upx;
+                .publish_find_icon {
+                    width: 73upx;
+                    height: auto;
+                }
+                .publish_find_title {
+                    font-size: 36upx;
+                    font-weight: normal;
+                    color: #131313;
+                    margin-left: 25upx;
+                }
+            }
+            .publish_find:last-of-type {
+                margin-top: 26upx;
+            }
+            .publish_find_car,.publish_find_freight {
+                background-color: #ffffff;
+                box-shadow: 0upx 4upx 18upx 0upx 
+                    rgba(137, 137, 137, 0.2);
+                border-radius: 10upx;
+            }
+        }
+        .publish_title_small {
+            margin: 63upx 0 34upx;
+            line-height: 1;
+        }
+        .publish_type_select_box {
+            .publish_select {
+                position: relative;
+                padding-left: 44upx;
+                height: 200upx;
+                .publish_select_title {
+                    font-size: 36upx;
+                    color: #131313;
+                }
+                .publish_select_icon {
+                    position: absolute;
+                    right: 33upx;
+                    top: 0;
+                    width: 51upx;
+                    height: auto;
+                }
+            }
+            .publish_select:last-of-type {
+                margin-top: 26upx;
+            }
+            .publish_select_car,.publish_select_freight {
+                background-color: #ffffff;
+                box-shadow: 0upx 4upx 18upx 0upx 
+                    rgba(137, 137, 137, 0.2);
+                border-radius: 10upx;
+            }
+        }
+    }
+}

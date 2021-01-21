@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "会员认证",
+  "navigationStyle": "custom",
+  "backgroundColor": "#26cf85",
+  "usingComponents": {
+    "cu-custom": "/components/cu-custom/cu-custom",
+    "w-picker": "/components/w-picker/w-picker",
+    "pop-link-dialog": "/components/popLinkDialog/popLinkDialog",
+    "pop-loading": "/components/popLoading/popLoading",
+    "pop-dialog": "/components/popDialog/popDialog",
+    "tip-modal": "/components/tipModal/tipModal",
+    "login": "/components/login/login"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "pages": [
+    "pages/home/index"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/things/grabOrderHall",
+      "pages": [
+        "hall/index",
+        "freight/info/index",
+        "freight/fill/index",
+        "car/info/index",
+        "car/fill/index"
+      ]
+    },
+    {
+      "root": "pages/things/publish",
+      "pages": [
+        "freight/index",
+        "car/index",
+        "success/index",
+        "collect/car/index",
+        "collect/freight/index"
+      ]
+    },
+    {
+      "root": "pages/things/withdraw",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "root": "pages/things/amount",
+      "pages": [
+        "recharge/balance/index",
+        "recharge/integral/index",
+        "recharge/success/index"
+      ]
+    },
+    {
+      "root": "pages/things/integral",
+      "pages": [
+        "dividend/info/index",
+        "giftPoints/info/index",
+        "profitPoints/info/index",
+        "profitPoints/transform/index",
+        "dividend/transform/index",
+        "constructionPoints/info/index",
+        "constructionPoints/hang/index",
+        "giftPoints/giveAway/index"
+      ]
+    },
+    {
+      "root": "pages/things/pointsHall",
+      "pages": [
+        "hall/index",
+        "buy/index"
+      ]
+    },
+    {
+      "root": "pages/things/identity",
+      "pages": [
+        "list/index",
+        "form/index"
+      ]
+    },
+    {
+      "root": "pages/things/user",
+      "pages": [
+        "info/index",
+        "rank/index",
+        "interests/index",
+        "collect/list/index",
+        "collect/update/freight/index",
+        "collect/info/freight/index",
+        "collect/add/freight/index",
+        "collect/update/car/index",
+        "collect/info/car/index",
+        "collect/add/car/index",
+        "demand/list/index",
+        "demand/car/list/index",
+        "demand/car/info/index",
+        "demand/car/uploadReceipt/index",
+        "demand/car/updateOrder/index",
+        "demand/freight/list/index",
+        "demand/freight/info/index",
+        "demand/freight/pay/index",
+        "demand/freight/updateOrder/index",
+        "demand/freight/assess/index",
+        "order/car/list/index",
+        "order/freight/list/index",
+        "order/car/info/index",
+        "order/freight/info/index",
+        "order/freight/uploadReceipt/index",
+        "order/assess/index",
+        "order/pay/index",
+        "wallet/index",
+        "order/gps/index",
+        "energy/ball/index",
+        "energy/transform/index",
+        "order/classify/index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "众创物联",
+    "navigationBarBackgroundColor": "#26cf85",
+    "backgroundColor": "#26cf85"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

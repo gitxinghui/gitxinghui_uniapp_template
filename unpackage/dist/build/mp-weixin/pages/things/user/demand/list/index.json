@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的发布需求",
+  "navigationStyle": "custom",
+  "backgroundColor": "#26cf85",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "cu-custom": "/components/cu-custom/cu-custom"
+  }
+}
